@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500&display=swap'); 
+body
+    {
+        background-color: #2F3E46;
+    }
+
+p1{
+
+    font-family: 'Praise', cursive;
+    color: #bfc8ba;
+    font-size: 100px;
+}
+
+p2{
+    font-family: 'Dosis', sans-serif;
+    color: #CAD2C5; 
+    font-size: 100px; 
+    font-weight: 500; 
+} 
+
+p3{
+    font-family: 'Dosis', sans-serif;
+    color: #CAD2C5; 
+    font-size: 30px; 
+    font-weight: 400; 
+}
+
+.column {
+    float: left;
+}
+
+.left{
+    width: 50%; 
+}
+
+.right{
+    width: 50%; 
+}
+
+.center{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+
+  .wrapper {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  .typing-demo {
+    width: 16ch;
+    animation: typing 2s steps(16), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    /* font-family: monospace;
+    font-size: 2em; */
+
+    font-family: 'Dosis', sans-serif;
+    color: #CAD2C5; 
+    font-size: 50px; 
+    font-weight: 400; 
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
